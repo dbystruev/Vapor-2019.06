@@ -28,7 +28,7 @@ API endpoints:
 </h2>
 
 <ul><li>
-/api/users — Users
+/api/user — Users
 </li></ul>
 
 <h2>
@@ -56,7 +56,7 @@ GET all
 </h3>
 
 <ul><li>
-GET /api/users
+GET /api/user
 </li></ul>
 
 <h3>
@@ -64,5 +64,5 @@ POST (create) new, model as JSON in body w/o id, returns model as JSON with id
 </h3>
 
 <ul><li>
-POST /api/users/
+POST /api/user
 </li></ul>
