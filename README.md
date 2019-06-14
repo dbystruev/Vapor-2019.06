@@ -18,3 +18,51 @@
         <img src="http://img.shields.io/badge/swift-4.1-brightgreen.svg" alt="Swift 4.1">
     </a>
 </p>
+
+<h1>
+Server is run at localhost:8080 by default.
+</h1>
+
+<h2>
+API endpoints:
+</h2>
+
+<ul><li>
+/api/users — Users
+</li></ul>
+
+<h2>
+Models:
+</h2>
+
+<h3>
+Users:
+</h3>
+
+<ul><li>
+id: Int?
+</li><li>
+login: String
+</li><li>
+name: String
+</li></ul>
+
+<h2>
+API Calls
+</h2>
+
+<h3>
+GET all
+</h3>
+
+<ul><li>
+GET /api/users
+</li></ul>
+
+<h3>
+POST (create) new, model as JSON in body w/o id, returns model as JSON with id
+</h3>
+
+<ul><li>
+POST /api/users/
+</li></ul>
