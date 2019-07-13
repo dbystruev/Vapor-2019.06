@@ -48,7 +48,7 @@ name: String
 </li></ul>
 
 <h2>
-API Calls
+API Calls:
 </h2>
 
 <h3>
@@ -66,3 +66,6 @@ POST (create) new, model as JSON in body w/o id, returns model as JSON with id
 <ul><li>
 POST /api/user
 </li></ul>
+
+<h2>Video:</h2>
+<a href="http://www.youtube.com/watch?v=mpZ2rmqEbGQ"><img src="http://img.youtube.com/vi/mpZ2rmqEbGQ/0.jpg"></a>
